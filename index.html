@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instagram Login Clone</title>
+  <link rel="stylesheet" href="Insta.css">
+</head>
+<body>
+  <main class="container">
+    <header class="header">
+      <h1>Instagram</h1>
+    </header>
+
+    <form class="login-form" aria-label="Instagram login form">
+      <label for="username" class="sr-only">Username, Email, or Phone</label>
+      <input type="text" id="username" placeholder="Phone number, email, or username" required>
+
+      <label for="password" class="sr-only">Password</label>
+      <input type="password" id="password" placeholder="Password" required>
+
+      <button type="submit">Login</button>
+
+      <p class="help-text">
+        Forgot your login details? <a href="#" id="getHelp">Get help logging in</a>
+      </p>
+    </form>
+
+    <div class="divider">
+      <span></span>
+      <p>OR</p>
+      <span></span>
+    </div>
+
+    <button class="facebook-login" id="fbLogin">Log in with Facebook</button>
+
+    <footer class="signup">
+      Don't have an account? <a href="#" id="signUp">Sign up</a>
+    </footer>
+  </main>
+
+  <script src="Insta.js" defer></script>
+</body>
+</html>
