@@ -22,7 +22,7 @@ This is a simple front-end clone of the Instagram login page built using HTML, C
 - If credentials match:
   - Username: `Batman`
   - Password: `Gothamneedsyou`
-- Then login is successful 😎
+- Then login is successful 
 - Otherwise, a custom error message is shown
 
 ## ⚠️ Note
